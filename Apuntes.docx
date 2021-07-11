@@ -1,1 +1,5 @@
-Las listas de enlaces tienen una variable llamada head que apunta ao primer elemento una llamada tail que apunta al ultimo elemento 
+Las listas de enlaces tienen una variable llamada head que apunta ao primer elemento una llamada tail que apunta al ultimo elemento.
+El ultimo apuntara hacia null.
+la lista terminada en null. 
+
+UNDER THE HOOD*/
