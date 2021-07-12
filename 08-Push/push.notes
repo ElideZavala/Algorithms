@@ -2,8 +2,13 @@
 #Notas# 
 
 [JavaScript]
-	Note: Va
+
+
 	tail: {
-		value: 7
+		value: 7,
+		next: {
+			value: 4,
+			next: null
+		}
 	}
 [end]
