@@ -11,7 +11,7 @@ class LinkedList {
 		// create new Node add Node to end
 	}
 	unshift(value) {
-		// create new Node add Node to beginning
+		if (!this.head) return undefined;
 	}
 	insert(index, value) {
 		// create new Node insert Node 
