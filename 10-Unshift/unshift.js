@@ -1,3 +1,5 @@
+// TODO: Agregamos un elemento al inicio del arreglo.
+
 let elementos = [11, 3, 23, 7, 4];
 class Node {
 	constructor(value) {
