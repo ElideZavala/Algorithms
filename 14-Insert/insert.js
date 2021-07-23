@@ -15,6 +15,21 @@ class LinkedList {
 		this.tail = this.head
 		this.length = 1
 	}
+	push(value) {
+		const newNode = new Node(value)
+		if (!this.head) {
+			Note: // Un solo elemento
+				this.head = newNode
+			this.tail = newNode
+		}
+		else {
+			Note: // Al ultimo elemento. 
+				this.tail.next = newNode
+			this.tail = newNode
+		}
+		this.length++
+		return this
+	}
 	unshift(value) {
 		const newNode = new Node(value)
 		if(!this.head) {
@@ -28,6 +43,8 @@ class LinkedList {
 		return this
 	}
 	insert(index, value) {
-		if (index === 0) return this.unshift(value);  // <== si no tenemos indice lo colocamos al inicio del arreglo
+		if (index === 0) return this.unshift(value)  // <== Si no tenemos indice lo colocamos al inicio del arreglo.
+		if (index === this.length) return this.push(value) // <== Si el indice es igual a la logitud del arreglo lo colomos al ultimo. 
+		if (index < 0 || index > this.length) return false // <== retornar false si el indice no entra al inicio o al final del arreglo. 
     }
 }
