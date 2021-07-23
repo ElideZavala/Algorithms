@@ -14,23 +14,24 @@ class LinkedList {
 		this.length = 1
 	}
 
-	TODO: // Si esta la es la cabeza agrega el nuevo elemento. 
-		push(value) {
-			const newNode = new Node(value)
-			if (!this.head) {
-				Note: // Un solo elemento
-					this.head = newNode
-				this.tail = newNode
-			}
-			else {
-				Note: // Al ultimo elemento. 
-					this.tail.next = newNode
-				this.tail = newNode
-			}
-			this.length++
-			return this
+	// TODO: // Si esta la es la cabeza agrega el nuevo elemento. 
+	push(value) {
+		const newNode = new Node(value)
+		if (!this.head) {
+			Note: // Un solo elemento
+				this.head = newNode
+			this.tail = newNode
 		}
+		else {
+			Note: // Al ultimo elemento. 
+				this.tail.next = newNode
+			this.tail = newNode
+		}
+		this.length++
+		return this
+	}
 }
+
 
 let myLinkedList = new LinkedList(7);
 MediaQueryList.push(4)
