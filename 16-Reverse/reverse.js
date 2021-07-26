@@ -1,4 +1,4 @@
-// TODO: Eliminara un elemento de una determinado indice 
+// TODO: Repetira una lista vinculada. 
 
 let elementos = [11, 3, 23, 7, 4];
 class Node {
@@ -89,14 +89,24 @@ class LinkedList {
 	    this.lenght--
 	    return temp 
     }
+    reverse(index) {
+		let temp = this.head
+		this.head = this.tail
+		this.tail = temp
+		let next = temp.next
+		let prev = null
+		for(let i = 0; i < this.length; i++) {
+			next = temp.next
+			temp.next = prev
+			prev = temp
+			temp = next 
+		}
+		return this
+    }
 }
 
-let myLinkedList = new LinkedList(11);
+let myLinkedList = new LinkedList(1);
+myLinkedList.push(1)
 myLinkedList.push(3)
-myLinkedList.push(23)
-myLinkedList.push(7)
-
-myLinkedList.remove(2)
-
-
+myLinkedList.reverse()
 console.log(myLinkedList)
