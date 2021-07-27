@@ -1,4 +1,4 @@
-// TODO: Repetira una lista vinculada. 
+// TODO: volteara al revez una lista vinculada. 
 
 let elementos = [11, 3, 23, 7, 4];
 class Node {
