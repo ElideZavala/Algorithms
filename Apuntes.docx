@@ -1,5 +1,12 @@
-Las listas de enlaces tienen una variable llamada head que apunta ao primer elemento una llamada tail que apunta al ultimo elemento.
-El ultimo apuntara hacia null.
-la lista terminada en null. 
+// Pedientes a realizar
+-- Creamos el elemento.
+-- Tiene un next con valor null.
+-- Tiene un prev con valor null. => clase de dos lineas
+-- Tienen un final o tail con valor igual a la cabeza. 
+-- tail recorrera los elementos hasta asignarse al elemento final.
 
 UNDER THE HOOD*/
+-- Crear una base de todos los metodos de la primera parte.
+
+// Errores
+-- se soluciona el metodo reverse, utilizando un ciclo el cual recorera todos los elementos, para regresarlos en la iteración creando un arreglo con los elementos ordenados contrariamentes. 
