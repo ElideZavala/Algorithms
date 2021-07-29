@@ -19,12 +19,12 @@ class LinkedList {
 		const newNode = new Node(value)
 		if (!this.head) {
 			Note: // Un solo elemento
-				this.head = newNode
+			this.head = newNode
 			this.tail = newNode
 		}
 		else {
 			Note: // Al ultimo elemento. 
-				this.tail.next = newNode
+			this.tail.next = newNode
 			this.tail = newNode
 		}
 		this.length++
