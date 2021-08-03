@@ -85,7 +85,12 @@ class DoublyLinkedList {
 		return temp
 	}
 	set(index, value) {
-		
+		let temp = this.get(index)
+		if (temp) {
+			temp.value = value
+			return true
+		}
+		return false
 	}
 }
 
@@ -93,6 +98,6 @@ class DoublyLinkedList {
 let myDoublyLinkedList = new DoublyLinkedList(0);
 myDoublyLinkedList.push(1)
 myDoublyLinkedList.push(2)
-myDoublyLinkedList.push(3)
-myDoublyLinkedList.get(1)
+myDoublyLinkedList.set(2, 52)
+
 console.log(myDoublyLinkedList)
