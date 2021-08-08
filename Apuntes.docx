@@ -10,3 +10,13 @@ UNDER THE HOOD*/
 
 // Errores
 -- se soluciona el metodo reverse, utilizando un ciclo el cual recorera todos los elementos, para regresarlos en la iteración creando un arreglo con los elementos ordenados contrariamentes. 
+
+
+--Queues 
+
+
+--FIFO
+Primero en llegar, primero en salir
+
+11, 3, 23, 7 
+0(n),    , 0(1)
