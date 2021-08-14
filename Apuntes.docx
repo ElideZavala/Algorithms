@@ -23,3 +23,9 @@ Primero en llegar, primero en salir
 
 11, 3, 23, 7 
 0(n),    , 0(1)
+
+==> BST (Arbol de busqueda binario) <==
+--lookup() => Iterar hasta encontrar el número 
+--Insert() => es mejor para una lista vinculada porque es de uno para poner algo al final
+--lookup() =>  Sera mejor pra un arbol de busqueda binaria  
+--remove() =>  Sera mejor pra un arbol de busqueda binaria  
