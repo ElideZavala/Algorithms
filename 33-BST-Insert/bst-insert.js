@@ -20,11 +20,18 @@ class BST {
 		while(true) {
 			if (newNode.value === temp.value) return undefined 
 			if (newNode.value < temp.value) {
-				if (temp.left = null)
-				temp.left = newNode
-				return this
+				if (temp.left = null) {
+					temp.left = newNode
+					return this
+				}
+				temp = temp.left
+			} else {
+				if (temp.right === null) {
+					temp.right = newNode
+					return this 
+				}
+				temp = temp.right
 			}
-			temp = temp.left
 		}
 	}
 }
