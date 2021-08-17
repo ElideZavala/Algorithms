@@ -10,6 +10,7 @@ class BST {
 	constructor() {
 		this.root = null
 	} 
+
 	insert(value) {
 		const newNode = new Node(value);
 		if (this.root === null) {
@@ -20,7 +21,7 @@ class BST {
 		while(true) {
 			if (newNode.value === temp.value) return undefined 
 			if (newNode.value < temp.value) {
-				if (temp.left = null) {
+				if (temp.left === null) {
 					temp.left = newNode
 					return this
 				}
@@ -35,3 +36,12 @@ class BST {
 		}
 	}
 }
+
+let myTree = new BST();
+myTree.insert(47)
+myTree.insert(21)
+myTree.insert(76)
+myTree.insert(18)
+
+myTree.insert(52)
+myTree.insert(82)
