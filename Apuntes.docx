@@ -29,3 +29,9 @@ Primero en llegar, primero en salir
 --Insert() => es mejor para una lista vinculada porque es de uno para poner algo al final
 --lookup() =>  Sera mejor pra un arbol de busqueda binaria  
 --remove() =>  Sera mejor pra un arbol de busqueda binaria  
+
+<--HASH Table-->
+ set(key, value) => set('nails', 1000) ===> ['nails', 1000]
+
+--Linear Probing 
+Hacer direccionamiento abierto colocar en diferentes posiciones 
