@@ -25,6 +25,7 @@ class HashTable {
 					return this.dataMap[index][i][1]
 				}
 			}
+			+
 		}
 		return undefined
 	}
