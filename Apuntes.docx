@@ -35,3 +35,10 @@ Primero en llegar, primero en salir
 
 --Linear Probing 
 Hacer direccionamiento abierto colocar en diferentes posiciones 
+
+
+==> Vertex or Node
+
+44===76   (Edge o Conecction)
+
+Si no hay flechas en bidireccional en Graph
