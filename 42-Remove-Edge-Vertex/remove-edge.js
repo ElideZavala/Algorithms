@@ -19,7 +19,7 @@ class Graph {
 		return false
 	}
 	removeEdge(vertex1, vertex2) {
-		if (this.adjacencyList[vertex1] && this.adjacencyList[vertex2]) {
+		if ( this.adjacencyList[vertex1] && this.adjacencyList[vertex2]) {
 			this.adjacencyList[vertex1] = this.adjacencyList[vertex1]
 				.filter(v => v !== vertex2);
 			this.adjacencyList[vertex2] = this.adjacencyList[vertex2]
@@ -29,3 +29,13 @@ class Graph {
 		return false
 	}
 }
+
+let myGraph = new Graph()
+
+myGraph.addvertex("A")
+myGraph.addvertex("B")
+myGraph.addvertex("C")
+myGraph.addedge("A", "B")
+myGraph.addedge("B", "C")
+myGraph.addedge("C", "A")
+myGraph
