@@ -71,7 +71,7 @@ class BST {
             if(currentNode.right) traverse(currentNode.right)
         }
         traverse(this.root)
-        return resul
+        return results
     }
 }
 
