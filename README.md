@@ -4,5 +4,5 @@
 
 *The one that executes the least number of operations is better*
 
-
-  
+  ## Tree
+  ![image](.tree.png)
