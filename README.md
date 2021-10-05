@@ -5,4 +5,8 @@
 *The one that executes the least number of operations is better*
 
   ## Tree
-  ![image](.tree.png)
+  ![image](./tree.png)
+  
+  ![image](./order.png)
+
+  ![image](./Sort.png)
