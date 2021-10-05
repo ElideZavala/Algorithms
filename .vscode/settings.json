@@ -21,7 +21,7 @@
 		"menubar.selectionForeground": "#AB47BC",
 		"editor.findMatchBorder": "#AB47BC",
 		"selection.background": "#AB47BC40",
-		"statusBarItem.remoteBackground": "#AB47BC",
+		"statusBarItem.remoteBackground": "#211047",
 		"activityBar.background": "#341971",
 		"titleBar.activeBackground": "#211047",
 		"titleBar.activeForeground": "#e7e7e7",
@@ -33,7 +33,12 @@
 		"statusBar.foreground": "#e7e7e7",
 		"statusBarItem.hoverBackground": "#341971",
 		"titleBar.inactiveBackground": "#21104799",
-		"titleBar.inactiveForeground": "#e7e7e799"
+		"titleBar.inactiveForeground": "#e7e7e799",
+		"editorGroup.border": "#341971",
+		"panel.border": "#341971",
+		"sash.hoverBorder": "#341971",
+		"sideBar.border": "#341971",
+		"statusBarItem.remoteForeground": "#e7e7e7"
 	},
 	"peacock.color": "#211047",
 	"files.exclude": {
