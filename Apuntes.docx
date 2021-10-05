@@ -1,9 +1,27 @@
-// Pedientes a realizar
+// Objectivo:
+-- Salir del curso con una comprensión de que estructura de datos o qué algoritmo debe utilizar en una situación similar. 
+
+
+// Notas: 
 -- Creamos el elemento.
 -- Tiene un next con valor null.
 -- Tiene un prev con valor null. => clase de dos lineas
 -- Tienen un final o tail con valor igual a la cabeza. 
 -- tail recorrera los elementos hasta asignarse al elemento final.
+
+- Qualities of Good Algorithms
+-- Input and output should be defined precisely.
+-- Each step in the algorithm should be clear and unambiguous.
+-- Algorithms should be most effective among many different ways to solve a problem.
+-- An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be used in   different programming languages.
+
+Step 1: Start
+Step 2: Declare variables num1, num2 and sum. 
+Step 3: Read values num1 and num2. 
+Step 4: Add num1 and num2 and assign the result to sum.
+        sum←num1+num2 
+Step 5: Display sum 
+Step 6: Stop
 
 UNDER THE HOOD*/
 -- Crear una base de todos los metodos de la primera parte.
